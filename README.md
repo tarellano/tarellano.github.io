@@ -1,12 +1,8 @@
-tarellano.com by Thomas Arellano
+# tarellano.com
+by Thomas Arellano
 
-This is my personal website! 
+This is my personal website which is currently under construction!
 
-Credits:
-	HTML Template:
-	Future Imperfect by HTML5 UP
-	html5up.net | @n33co
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 
 	Icons:
 		Font Awesome (fortawesome.github.com/Font-Awesome)
