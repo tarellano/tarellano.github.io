@@ -1,153 +1,224 @@
-<!DOCTYPE HTML>
-<!--
-	Future Imperfect by HTML5 UP
-	html5up.net | @n33co
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+<!DOCTYPE html>
+<html lang="en">
 
-  ga('create', 'UA-79205362-1', 'auto');
-  ga('send', 'pageview');
+<head>
 
-</script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-<html>
-	<head>
-		<title>tarellano</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<link rel="icon" type="image/png" href="http://tarellano.com/favicon.ico" />
-		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-	</head>
-	<body>
+    <title>tarellano</title>
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
-				<!-- Header -->
-					<header id="header">
-						<h1><a href="http://tarellano.com">Thomas Arellano</a></h1>
-						<nav class="links">
-							<ul>
-								<li><a href="about">About</a></li>
-								<li><a href="projects">Projects</a></li>
-								<li><a href="hobbies">Hobbies</a></li>
-							</ul>
-						</nav>
-						<nav class="main">
-							<ul>
-								<li class="search">
-									<a class="fa-search" href="#search">Search</a>
-									<form id="search" method="get" action="#">
-										<input type="text" name="query" placeholder="Search" />
-									</form>
-								</li>
-								<li class="menu">
-									<a class="fa-bars" href="#menu">Menu</a>
-								</li>
-							</ul>
-						</nav>
-					</header>
+    <!-- Custom CSS -->
+    <link href="css/landing-page.css" rel="stylesheet">
 
-				<!-- Menu -->
-					<section id="menu">
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
 
-						<!-- Search -->
-							<section>
-								<form class="search" method="get" action="#">
-									<input type="text" name="query" placeholder="Search" />
-								</form>
-							</section>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
 
-						<!-- Links -->
-							<section>
-								<ul class="links">
-									<li>
-										<a href="about">
-											<h3>About</h3>
-											<p>Get to know me</p>
-										</a>
-									</li>
-									<li>
-										<a href="projects">
-											<h3>Projects</h3>
-											<p>See what I do</p>
-										</a>
-									</li>
-									<li>
-										<a href="hobbies">
-											<h3>Hobbies</h3>
-											<p>Learn my interests</p>
-										</a>
-									</li>
-								</ul>
-							</section>
+</head>
 
-						<!-- Actions -->
-							<section>
-								<ul class="actions vertical">
-									<li><a href="https://www.youtube.com/watch?v=ykHZ7LtFZDA" class="button big fit">Please Don't Press Me</a></li>
-								</ul>
-							</section>
-					</section>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
+        <div class="container topnav">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand topnav" href="#">Start Bootstrap</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#about">About</a>
+                    </li>
+                    <li>
+                        <a href="#services">Projects</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
 
 
-					<!--Main-->
-					<div id="main">
-						<!-- Post -->
-						  <article class="post">
-						    <header>
-						      <div class="title">
-						        <h2><a href="#">New blog!</a></h2>
-						        <p>Some site renovations</p>
-						      </div>
-						      <div class="meta">
-						        <time class="published" datetime="2016-06-10">June 10th, 2016</time>
-						        <a href="about" class="author"><span class="name">Thomas Arellano</span><img src="images/graduationsolo.jpg" alt="" /></a>
-						      </div>
-						    </header>
-						    <p> <a href = "http://blog.tarellano.com"> blog.tarellano.com </a>
-						    </p>
-						  </article>
-					<!-- About -->
-							<section class="blurb">
-								<h2>About</h2>
-								<p>This is my personal website. Home to random things currently.</p>
-								<ul class="actions">
-									<li><a href="about" class="button">Learn More</a></li>
-								</ul>
-							</section>
+    <!-- Header -->
+    <a name="about"></a>
+    <div class="intro-header">
+        <div class="container">
 
-						<!-- Footer -->
-							<section id="footer">
-								<ul class="icons">
-									<li><a href="https://twitter.com/Thomas_Arellano" class="fa-twitter"><span class="label">Twitter</span></a></li>
-									<li><a href="https://www.instagram.com/tarellano8/" class="fa-instagram"><span class="label">Instagram</span></a></li>
-									<li><a href="https://github.com/tarellano" class="fa-github"><span class="label">Github</span></a></li>
-									<li><a href="https://www.linkedin.com/in/thomasarellano" class="fa-linkedin-square"><span class="label">Linkedin</span></a></li>
-									<li><a href="resume.pdf" class="fa-file"><span class="label">Resume</span></a></li>
-								</ul>
-								<p class="copyright">&copy; Thomas Arellano.</p>
-							</section>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="intro-message">
+                        <h1>Thomas Arellano</h1>
+                        <h3>Software Developer</h3>
+                        <hr class="intro-divider">
 
-					</section>
+                    </div>
+                </div>
+            </div>
 
-			</div>
+        </div>
+        <!-- /.container -->
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="assets/js/main.js"></script>
+    </div>
+    <!-- /.intro-header -->
 
-	</body>
+    <!-- Page Content -->
+
+	<a  name="services"></a>
+    <div class="content-section-a">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">An iPad.</h2>
+                    <p class="lead"> This image is of an iPad. It has an image of sticky notes.</p>
+                </div>
+                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                    <img class="img-responsive" src="img/ipad.png" alt="">
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.content-section-a -->
+
+    <div class="content-section-b">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">An iMac.</h2>
+                    <p class="lead"> This image is of an iMac. It features a dog in it.</p>
+                </div>
+                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+                    <img class="img-responsive" src="img/dog.png" alt="">
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.content-section-b -->
+
+    <div class="content-section-a">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-5 col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">An iPhone. </h2>
+                    <p class="lead"> Actually there are two iPhones.</p>
+                </div>
+                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                    <img class="img-responsive" src="img/phones.png" alt="">
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.content-section-a -->
+
+	<a  name="contact"></a>
+    <div class="banner">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-6">
+                    <h2>Connect with me!</h2>
+                </div>
+                <div class="col-lg-6">
+                    <ul class="list-inline banner-social-buttons">
+                        <li>
+                            <a href="https://twitter.com/Thomas_Arellano" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/tarellano" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                        </li>
+                        <li>
+                            <a href="#" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.banner -->
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="list-inline">
+                        <li>
+                            <a href="#">Home</a>
+                        </li>
+                        <li class="footer-menu-divider">&sdot;</li>
+                        <li>
+                            <a href="#about">About</a>
+                        </li>
+                        <li class="footer-menu-divider">&sdot;</li>
+                        <li>
+                            <a href="#services">Projects</a>
+                        </li>
+                        <li class="footer-menu-divider">&sdot;</li>
+                        <li>
+                            <a href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                    <p class="copyright text-muted small">Copyright &copy; Thomas Arellano. All Rights Reserved</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
 </html>
