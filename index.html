@@ -40,7 +40,7 @@
 
 </head>
 
-<body>
+<body onload="return random_colour()">
     <div id="main">
         <div id="content">
             <div class="container">
@@ -77,6 +77,15 @@
             </div>
         </div>
     </div>
+
+    <script type="text/javascript">
+        function random_colour() {
+            var colour = '#';
+            var colours = ['f4f7e2', 'efefef', 'e2f1f7', 'cfc884', 'ddffd6', '98a3b9'];
+            colour += colours[Math.floor(Math.random() * colours.length)];
+            document.body.style.backgroundColor = colour;
+        }
+    </script>
 </body>
 
 </html>
