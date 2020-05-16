@@ -19,16 +19,17 @@ h1 {
 body {
     font-family: 'Merriweather', serif;
     font-weight: 500;
-    color: black;
+    color: white;
+    background-color: black;
 }
 
 a {
-    color: black;
+    color: white;
     opacity: 0.5;
 }
 
 a:hover {
-    color: black;
+    color: white;
     opacity: 1;
     text-decoration: none;
 }
