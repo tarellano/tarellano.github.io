@@ -1,39 +1,46 @@
 .main {
-    /* display: flex; */
-    margin: 50px 0 0 0;
-    /* justify-content: center; */
-    /* align-items: center; */
-    /* text-align: center; */
-    /* width: 100%; */
-    /* height: 100%; */
+    margin: 25px 0 0 25px;
+    max-width: 540px;
 }
 
 body {
     font-family: 'Merriweather', serif;
     font-weight: 500;
     color: rgb(0, 0, 0);
-    background-color: #c1e1c1;
+    background-color: #92d19ee7;
+}
+
+.bordered {
+    border-radius: 10px;
+    border: 2px solid #000000;
+    margin: 10px 0px;
 }
 
 a {
-    color: rgb(69, 69, 69);
-    opacity: 0.5;
+    color: rgb(0, 0, 0);
+    opacity: 0.8;
+    text-decoration: underline;
 }
 
 a:hover {
     color: rgb(0, 0, 0);
     opacity: 1;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
-.grape {
-    margin: 10px;
+h1 {
+    margin-bottom: 15px;
 }
 
-.hi-header {
-    padding: 25px;
+p {
+    text-indent: 15px;
+    margin-block-end: 15px;
 }
 
-.info-bubble {
-    padding: 10px;
+/*  Used top-margin to provide upper margin for each div inside the box
+    Margin matches margin-block-end of paragraph and margin-bottom of h1 
+    to ensure even spacing
+ */
+.top-margin {
+    margin-top: 15px;
 }
