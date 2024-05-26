@@ -44,3 +44,8 @@ p {
 .top-margin {
     margin-top: 15px;
 }
+
+.copyright {
+    text-align: center;
+    font-size: 12px;
+}
