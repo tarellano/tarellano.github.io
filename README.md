@@ -5,6 +5,11 @@ Redesigned my personal website to be text-based. I want my corner of the interne
 
 <img width="1840" alt="2024-05-25-tarellano com-v3-scrnsht" src="https://github.com/tarellano/tarellano.github.io/assets/10859108/d4ca9563-7622-4841-8263-9b60afdd3165">
 
+Inspired by [willium.com](https://willium.com/), [shakeelrao.com](https://shakeelrao.com/), and [Archipelago Herve Di Rosa (MAAT, Lisbon)](https://www.maat.pt/en/exhibition/archipelago-herve-di-rosa).
+
+![tarellano-archipelago](https://github.com/tarellano/tarellano.github.io/assets/10859108/88a47c2e-1f89-45de-a19d-818abf6457d5)
+_Photo of Archipelago Herve Di Rosa exhibition at the MAAT in Lisbon, 2023_
+
 ###### v2.0.1
 
 This is my personal website built with HTML, CSS, and js using the bootstrap framework. The website is hosted at using gh-pages and can be seen at [tarellano.com](https://tarellano.com).
